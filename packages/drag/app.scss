@@ -1,0 +1,18 @@
+.wrapper {
+  width: 300px;
+  height: 500px;
+  border: 1px solid;
+  position: relative;
+  .content {
+    height: 100%;
+    background-color: bisque;
+  }
+  .drag-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 5px;
+    background-color: black;
+  }
+}

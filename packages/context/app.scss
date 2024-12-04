@@ -1,0 +1,14 @@
+.wrapper {
+  height: 600px;
+  width: 300px;
+
+  .item {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    &.is-select {
+      background-color: darkslateblue;
+      color: #fff;
+    }
+  }
+}
